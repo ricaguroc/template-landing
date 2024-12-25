@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+h1 {
+
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 150px;
+
+  font-weight: 700;
+
+}
+.basico {
+
+  border: 4px solid black;
+  
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(130deg, #000, #161616, #000000);
+
+}
+
+.mid {
+
+  border: 4px solid red;
+
+  width: 70%;
+  height: 100%;
+  margin: auto;
+
+
+
+}
+
+
+.text {
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+
+  padding-top: 20rem;
+
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+
+  border: 4px solid pink;
+
+  z-index: -1;
+
+}
+
+.container {
+
+  width: 100%; 
+  height: 100%;
+  background: linear-gradient(130deg, #000, #161616, #000000);
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.testing{
+
+  height: 410px;
+  width: 610px;
+
+  background: linear-gradient(90deg, white, grey, rgb(65, 65, 65), gray, white);
+  animation: move 10s ease-in-out infinite alternate;
+  background-size: 400% 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  
+}
+
+@keyframes move {
+  
+  from { background-position: 0 0;}
+  to { background-position: 200% 0;}
+
+}

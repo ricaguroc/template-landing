@@ -1,0 +1,34 @@
+.carousel {
+
+    height: 1200vh;
+    border: 4px solid yellow;
+    background: black;
+
+}
+
+.midContainer {
+
+    position: sticky;
+    top:0;
+
+    border:4px solid purple;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.itemsContainer {
+
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    gap:6vw;
+    padding: 0 100rem 0 100rem;
+
+
+}
